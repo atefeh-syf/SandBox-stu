@@ -1,0 +1,216 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }  
+  .navbar {
+    background:#3b3d3b;
+  }
+  .nav-link,
+  .navbar-brand {
+    cursor: pointer;
+  }
+  .navbar-brand {
+    color: #10b410;
+    font-size: 1.5rem;
+  }
+  .navbar-brand:hover{
+    color: #000;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+    color: #fff;
+    padding-right: .1rem !important;
+    padding-left: .1rem !important;
+  }
+  .nav-link:hover {
+    color: #10b410;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+  }
+
+  .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.4);
+  }
+  .description {
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -55%);
+  }
+  .title{
+    font-size: 3.5rem;
+    position: relative;
+    top: 51px;
+    color: #fff;
+  }
+  .des{
+    position: relative;
+    top: 100px;
+    color: #fff;
+    font-size: 23px;
+    line-height: 1.5;
+    text-shadow: 0 0 8px #000;
+  }
+
+  .btn{
+    position: relative;
+    top: 120px;
+  }
+
+  .btn_text{
+    display: block;
+    border-radius: 30px;
+    background:rgba( 21, 115, 6,.79);
+    width: 300px;
+    color: #fff;
+    height: 40px;
+    line-height: 31px;
+  }
+  .row_title{
+    display: block;
+    font-size: 30px!important;
+    float: right;
+    color: #787574;
+  }
+  .col-lg-3.col-md-3.col-sm-12 .course{
+    background: #d7dcd9;
+    background:#d7dcd9;
+    width: 270px;
+    height: 350px;
+    border-radius:4px; 
+    position: relative;
+    margin: 10px 0;
+    box-shadow: 0px 2px 1px 1px rgba( 157, 162, 160 ,.7);
+  }
+  .course_title,.teacher{
+    float: right;
+    margin-top: 20px;
+    position: absolute;
+    text-shadow: 1px 1px .9px #fff;
+    font-size: 17px;
+  }
+  .course_title{
+    top: 165px;
+    right: 8px;
+    color:   #f65633 ;
+  }
+  .teacher{
+    bottom: 45px;
+    right: 8px;
+    color: #10b410;
+  }
+  .img_course{
+    width: 260px;
+    height: 160px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+  }
+
+  .features {
+    padding: 1em;
+    position: relative;
+    margin: 4em auto;
+  }
+
+  .features-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  footer{
+    background: rgba( 21, 115, 6,.79);;
+  }
+  .footer{
+
+  }
+  .footer_title{
+    float: right;
+    font-size: 50px;
+    color:#fff;
+  }
+
+  .telegram ,.linkedin ,.instagram ,.twitter{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .instagram{
+    background: url(img/instagram.png);
+  }
+
+  .telegram{
+    background: url(img/telegram.png);
+  }
+
+  .linkedin{
+    background: url(img/linkedin.png);
+  }
+
+  .twitter{
+    background: url(img/twitter.png);
+  }
+
+  .footer_link_title{
+    float: right;
+    font-size: 20px;
+    color: #b0d400 !important;
+    margin: 10px 0;
+  }
+
+  .footer_link_element {
+    display: block;
+    color:#d5cecb !important;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .footer_link_element:hover {
+      color: #fff !important;
+
+  }
+  .footer{
+    margin-top: 20px;
+  }
+  .copyright{
+    background: #0f620a;
+    width: 100%;
+  }
+
+  .copyright_link{
+    color:#fff !important;
+    float: right;
+    margin: 10px;
+    font-size: 12pt;
+  }
+
+  .width_div{
+    width: 100%;
+    float: right;
+  }
+
+  .copyright p{
+    float: right;
+    margin-right: 15px;
+    color: #8d928c;
+    font-size: 10pt;
+    padding: 15px;
+  }
