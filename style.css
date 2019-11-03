@@ -87,15 +87,18 @@ body {
     float: right;
     color: #787574;
   }
-  .col-lg-3.col-md-3.col-sm-12 .course{
-    background: #d7dcd9;
-    background:#d7dcd9;
-    width: 270px;
-    height: 350px;
-    border-radius:4px; 
-    position: relative;
-    margin: 10px 0;
-    box-shadow: 0px 2px 1px 1px rgba( 157, 162, 160 ,.7);
+  .cart_style{
+    padding: 0 5px;
+    margin: 30px 0;
+  }
+  .align_tag{
+    text-align: right;
+  }
+  .height_cart{
+    height: 18rem;
+  }
+  .p_cart{
+    margin-top: 20px;
   }
   .course_title,.teacher{
     float: right;
